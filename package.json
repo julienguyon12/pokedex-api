@@ -1,0 +1,32 @@
+{
+  "name": "pokedex-api",
+  "version": "1.0.0",
+  "description": "An API of pokemons",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienguyon12/pokedex-api.git"
+  },
+  "author": "julien guyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienguyon12/pokedex-api/issues"
+  },
+  "homepage": "https://github.com/julienguyon12/pokedex-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.33.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
